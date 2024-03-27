@@ -7,7 +7,7 @@ function Productos(props){
     return(
     <>
     <div className='productos'>
-        <img src={props.imagen} /> 
+        <img src={props.imagen} alt ="" /> 
         <p className='productoCatalogo'>Nombre: {props.nombre}</p>
         <p className='productoCatalogo'>Precio: $ {props.precio} MXN</p>
         <p className='productoCatalogo'>ID: {props.id}</p>

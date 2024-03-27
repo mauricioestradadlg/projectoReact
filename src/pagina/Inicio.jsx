@@ -7,7 +7,7 @@ function Inicio(){
         <main>
             <h1 id = "h1Inicio">Inicio</h1>
             <h4 id = "h4Inicio">Bienvenido a la pagina web!!</h4>
-            <img className = "imagenInicio" src = './imagenes/vaultBoy.png'/>
+            <img alt = ""className = "imagenInicio" src = './vaultBoy.png'/>
 
             <p className="parrafoInicio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id magni commodi 
             neque eligendi exercitationem molestias rerum accusamus laudantium vero nostrum 

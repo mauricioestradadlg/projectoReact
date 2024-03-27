@@ -7,7 +7,7 @@ function Contacto(){
         <main>
         <h1 id = "h1Inicio">Contacto</h1>
         <h4 id = "h4Inicio">Cualquier duda o comentario envianos un mensaje!</h4><br/>
-        <img className = "imagenContacto" src = "./imagenes/contacto.jpg"/>
+        <img alt = "" className = "imagenContacto" src = "./imagenes/contacto.jpg"/>
         <form>
 
             <label for ="nombre">Nombre:</label><br/><br/>

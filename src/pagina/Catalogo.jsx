@@ -17,7 +17,7 @@ function Catalogo(){
         <main>
             <h1 id = "h1Inicio" className='h1Catalogo'>Catalogo</h1>
             <h4 id = "h4Inicio" className='h4Catalogo'>Aqui estan nuestros productos, elige el que mas te gusta😉</h4><br/><br/>
-            <img className='imgCatalogo' src = './imagenes/mercancia.jpg'/><br/><br/><br/><br/><br/>
+            <img alt = "" className='imgCatalogo' src = './imagenes/mercancia.jpg'/><br/><br/><br/><br/><br/>
 
             <Productos nombre ="Producto 1" precio = {999.5} id = {1000} imagen ="./imagenes/reactLogo.png" agregarAlCarrito={agregarAlCarrito}/>
             <Productos nombre ="Producto 2" precio = {1999.5} id = {1001} imagen ="./imagenes/reactLogo.png" agregarAlCarrito={agregarAlCarrito}/>
