@@ -1,0 +1,188 @@
+/*
+
+Estilo de componentes en especifico
+
+*/
+
+
+/* INICIO */
+
+#h1Inicio{
+
+  color: white;
+  font-size: 50px;
+  text-shadow: 1px 5px 5px hsl(0, 0%, 0%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#h4Inicio{
+
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 5px 5px hsl(0, 0%, 0%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagenInicio{
+
+  height: 500px;
+  width: 1000px;
+}
+
+.parrafoInicio{
+  font-size: 25px;
+  color: white;
+  text-shadow: 1px 5px 5px hsl(0, 0%, 0%);
+}
+
+
+
+@media (max-width: 767px){
+
+  .imagenInicio{
+
+      height: 200px;
+      width: 370px;
+  }
+}
+
+
+
+
+
+/* ABOUT US */
+
+#h1AU{
+
+  color: white;
+  font-size: 50px;
+  text-shadow: 1px 5px 5px hsl(0, 0%, 0%);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.parrafoAU{
+  font-size: 40px;
+  color: white;
+  text-shadow: 1px 5px 5px hsl(0, 0%, 0%);
+}
+
+
+
+@media (max-width: 767px){
+
+  .imagenAU{
+
+      height: 200px;
+      width: 370px;
+  }
+}
+
+
+
+
+
+
+
+/* CONTACTO */
+
+
+
+/* Labels del formulario*/
+label{
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+textarea{
+  width: 300px; /* Ancho fijo */
+  height: 200px; /* Altura fija */
+  resize: none; /* Deshabilita la redimensionabilidad */
+}
+
+@media (max-width: 767px){
+
+  .imagenContacto{
+      height: 230px;
+      width: 360px;
+  }
+}
+
+
+/* CATALOGO/PRODUCTOS/CARRITO */
+
+
+.productoCatalogo{
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.h2Carrito{
+  color: white;
+  text-shadow: 1px 5px 5px black;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.ulCarrito{
+
+  color: white;
+  text-shadow: 1px 5px 5px black;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+.metodoPago{
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(197, 5, 5);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.select{
+width: 200px; /* Establece el ancho */
+padding: 10px; /* Añade un relleno */
+font-size: 16px; /* Tamaño de fuente */
+border: 2px solid #ccc; /* Borde */
+border-radius: 5px; /* Borde redondeado */
+background-color: red;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 767px){
+
+  .imgCatalogo{
+      height: 200px;
+      width: 360px;
+  }
+}
+
+
+/* Botones */
+
+
+button{
+
+  background-color: rgb(2, 8, 92);
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: black;
+  border-radius: 30px;
+  
+}
+
+
+.botonesCarrito{
+
+  margin: 2px;
+}

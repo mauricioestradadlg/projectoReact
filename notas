@@ -1,0 +1,14 @@
+-usar React sin vite: 
+
+-npx create-react-app my-react-app
+
+-usar multipaginas en 1 proyecto: 
+
+npm install react-router-dom
+
+-ejecutar el servidor de react: 
+
+npm start
+
+
+npm install gh-pages --save-dev
